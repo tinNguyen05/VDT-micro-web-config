@@ -1,7 +1,7 @@
 apiGateway:
   image:
     repository: trtin2005/api-gateway
-    tag: v20.0
+    tag: v21.0
     pullPolicy: IfNotPresent
   service:
     port: 8080
@@ -10,7 +10,7 @@ apiGateway:
 frontend:
   image:
     repository: trtin2005/frontend
-    tag: v20.0
+    tag: v21.0
     pullPolicy: IfNotPresent
   service:
     port: 80
@@ -19,7 +19,7 @@ frontend:
 orderService:
   image:
     repository: trtin2005/order-service
-    tag: v20.0
+    tag: v21.0
     pullPolicy: IfNotPresent
   service:
     port: 3001
@@ -28,7 +28,7 @@ orderService:
 productService:
   image:
     repository: trtin2005/product-service
-    tag: v20.0
+    tag: v21.0
     pullPolicy: IfNotPresent
   service:
     port: 3002
@@ -37,7 +37,7 @@ productService:
 userService:
   image:
     repository: trtin2005/user-service
-    tag: v20.0
+    tag: v21.0
     pullPolicy: IfNotPresent
   service:
     port: 3003
